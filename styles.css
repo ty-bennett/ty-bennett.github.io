@@ -1,0 +1,13 @@
+body {
+  background-color: #28231C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #C1FFFF;
+}
+/* class styling */
+
+.about {
+  color: white;
+}
