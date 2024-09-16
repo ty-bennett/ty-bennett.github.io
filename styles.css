@@ -6,6 +6,11 @@ h1 {
   text-align: center;
   color: #C1FFFF;
 }
+h2 {
+  text-align: center;
+  color: #C1FFFF;
+  font-size: 16px;
+}
 /* class styling */
 
 .about {
