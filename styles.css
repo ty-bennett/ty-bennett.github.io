@@ -37,7 +37,9 @@ h3 {
   color: white;
 }
 .contact-list {
+  color: white;
   list-style: none;
   display: inline;
-  padding: 5 rem;
+  padding-left: 5 rem;
+  padding-right: 5 rem;
 }
