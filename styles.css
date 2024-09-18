@@ -44,3 +44,10 @@ h3 {
   padding-right: 5 rem;
   text-align: center;
 }
+.softskills-list {
+  text-align: left; 
+  list-style: disc;
+  display: inline;
+   font-size: 16px;
+   color: white;
+}
