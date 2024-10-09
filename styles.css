@@ -53,13 +53,13 @@ h3 {
   padding: 20px 10px;
   background: #5e503f; 
   border-radius: 10%;
-  object-fit: contain;
+  object-fit: cover;
  }
  .project img {
-  object-fit: inherit;
-  height: auto;
+  object-fit: cover;
   width: 100%;
  }
+ 
  .project-title {
   text-align: center;
  }
