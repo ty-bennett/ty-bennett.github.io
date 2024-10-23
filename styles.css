@@ -53,13 +53,12 @@ h3 {
   padding: 20px 10px;
   background: #5e503f; 
   border-radius: 10%;
-  object-fit: cover;
  }
  .project img {
-  object-fit: cover;
   width: 100%;
   border: 3px, solid, #C1FFFF;
   border-radius: 15%;
+  object-fit: cover;
  }
  
  .project-title {
