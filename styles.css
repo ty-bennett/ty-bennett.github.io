@@ -90,6 +90,8 @@ h3 {
   grid-template-columns: 30% 70%;
   grid-template-rows: auto auto;
   gap: 10px;
+  justify-items: center;
+  align-items: center;
 }
 .mission-img {
   grid-column: 1;
@@ -101,21 +103,36 @@ h3 {
   box-shadow: -5px 5px 5px 5px #0a0908;
 }
 .mission-statement {
+  display: inline-block;
   font-size: 24px;
   grid-column: 2;
   grid-row: 1;
-  margin: 50px;
+  margin: 30px;
   background-color: #5e503f;
-  height: 32%;
   border-radius: 10px;
-  width: 80%;
+  width: 90%;
+  height: 80%;
 }
-.mission-languages {
+.mission-resume {
+  font-size: 36px;
   grid-column: 2;
   grid-row: 2;
-  height: 100%;
-  width: 100%;
+  text-align: center;
+  background: #5e503f;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
+  padding: 5px;
+  padding-top: 10px;
 }
+
+.mission-resume :hover {
+  color: white;
+}
+.mission-resume ::after {
+  color: green;
+}
+
 
 .img-container {
   grid-row: 1;
